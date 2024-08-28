@@ -1,0 +1,55 @@
+/*-- COMMON CSS START--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*--COMMON CSS ENDS--*/
+.light{
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:100vh;
+
+}
+.light button{
+    border:none;
+    cursor:pointer;
+    padding:10px 30px;
+}
+.count{
+    background-color:bisque;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:100vh;
+
+}
+.count button , .count input{
+    padding: 10px 20px;
+    text-align: center;
+
+}
+.count button{
+    cursor: pointer;
+}
